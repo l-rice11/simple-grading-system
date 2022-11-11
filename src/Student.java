@@ -92,13 +92,13 @@ public class Student {
     public String calculateLetterGrade() {
         double avg = calculateAverage();
         
-        if( avg >= 9.0 )
+        if( avg >= 90.0 )
             return "A";
-        else if( avg >= 8.0 ) 
+        else if( avg >= 80.0 ) 
             return "B";
-        else if( avg >= 7.0 )
+        else if( avg >= 70.0 )
             return "C";
-        else if( avg >= 6.0 )
+        else if( avg >= 60.0 )
             return "D";
         else
             return "F";         
